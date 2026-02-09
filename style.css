@@ -171,6 +171,18 @@ p {
     60% { transform: scale(1); }
 }
 
+/* Romantic background images */
+.bg-love {
+    background: 
+        linear-gradient(rgba(255,240,243,0.85), rgba(255,240,243,0.85)),
+        url("https://www.pixelstalk.net/love-wallpapers/");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 .proposal-content h1 {
     animation: heartbeat 2s infinite;
 }
+
